@@ -41,6 +41,18 @@ This is the prompt invoked by the daily scheduled task. Edit here, not at the cr
    hints.md        exactly 3 progressive hints, "read one at a time" header
    ```
 
+   ### README structure (mirror 2026-04-27 exactly)
+
+   The per-problem `README.md` must end with a minimal `## Reference` section pointing at the day-late spoiler drop:
+
+   ```markdown
+   ## Reference
+
+   `reference.md` lands in this folder the morning after the problem ships. Diff your attempt against it.
+   ```
+
+   Do NOT add advice about LLM review, attempts/, or any user-specific workflow — the repo is a follower-focused catalog and nothing in any per-problem README may assume the reader has a particular tool or agent.
+
    ### Canonical Makefile (paste verbatim, edit only the SRCS/HEADERS file names)
 
    ```makefile

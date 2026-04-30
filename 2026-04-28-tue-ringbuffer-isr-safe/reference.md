@@ -1,6 +1,6 @@
 # Reference solution — Tuesday 2026-04-28
 
-This is the canonical solution for `2026-04-28-tue-ringbuffer-isr-safe`. Compare against your `attempts/` and the feedback Claude gave you.
+Canonical solution. Diff this against your own attempt — the deltas in idiom (`volatile` placement, the order of write-then-advance, AND-mask wrap, exact-width types) are the parts an embedded interviewer would call out around ISR safety.
 
 ## `src/ringbuffer.c`
 

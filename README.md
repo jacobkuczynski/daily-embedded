@@ -57,9 +57,9 @@ Difficulty target throughout: SWE I / new-grad / Associate level. Weekday warmup
 
 `index.md` is the running catalog of problems with date, day, topic, and difficulty.
 
-## Feedback and questions
+## Bug reports and questions
 
-Stuck on a problem, spot a bug, or think a reference solution misses a better idiom? Open an issue. If you've solved a problem and want eyes on your approach, an issue is fine for that too — paste the relevant function and what you were unsure about.
+Spot a bug, think a reference solution misses a cleaner idiom, or stuck on a problem in a way the hints don't address? Open an issue.
 
 ## The system, for forkers
 

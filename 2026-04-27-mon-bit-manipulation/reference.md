@@ -1,6 +1,6 @@
 # Reference solution — Monday 2026-04-27
 
-This is the canonical solution for `2026-04-27-mon-bit-manipulation`. Compare against your `attempts/` and the feedback Claude gave you.
+Canonical solution. Diff this against your own attempt — the deltas in idiom (build the mask once, explicit `!= 0`, wider type for full-width masks, exact-width types) are the parts an embedded interviewer would call out.
 
 ## `src/sensor.c`
 

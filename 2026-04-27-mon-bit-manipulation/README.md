@@ -60,8 +60,6 @@ Tests in `tests.c` will be red until you implement the functions. They cover the
 
 `hints.md` has three progressive hints. Read them one at a time only if you're stuck.
 
-## When you're done
+## Reference
 
-Tell Claude "review today's problem". You'll get feedback covering correctness, embedded-specific code quality, what an interviewer would call out, and a cleaner alternative if yours wasn't the tightest. Your attempt gets appended to `attempts/`.
-
-Tomorrow morning, `reference.md` lands in this folder with the canonical solution for comparison.
+`reference.md` lands in this folder the morning after the problem ships. Diff your attempt against it.

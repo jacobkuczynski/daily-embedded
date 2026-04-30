@@ -1,0 +1,28 @@
+# Personal practice records — never publish
+attempts/
+.private/
+
+# Don't auto-pick-up your in-flight edits to canonical src/ stubs.
+# publish.sh force-adds the freshly-generated stubs each morning so
+# followers see the day's blank starter, then sets skip-worktree on
+# the tracked files so subsequent edits stay local.
+*/src/
+
+# Workflow holding area — pushing this leaks tomorrow's reference
+.pending-references/
+
+# Failure breadcrumbs from the generator's self-check gate
+CHECK_FAILED.md
+GENERATOR_MISSING.md
+
+# Build artifacts
+run_tests
+tests
+*.o
+*.dSYM/
+
+# Editor / OS noise
+.DS_Store
+*.swp
+.idea/
+.vscode/

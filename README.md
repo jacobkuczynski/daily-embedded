@@ -1,4 +1,4 @@
-# Embedded Prep
+# Daily Embedded Coding Exercises
 
 Daily exercises for embedded software engineer interviews. A new problem lands every weekday morning — bit manipulation, RTOS / ISR safety, embedded data structures, peripheral protocols, debugging scenarios. Pure C99, gcc + make, no Docker, no external libraries.
 
